@@ -7,7 +7,7 @@ A simple XmlHttpRequest package
 ### GET request
 
 ```javascript
-import Request from 'simple-request';
+import Request from 'simple-xmlhttp-request';
 
 let request = new Request();
 let result = request.get('/your-url-here');
@@ -16,7 +16,7 @@ let result = request.get('/your-url-here');
 ### POST request
 
 ```javascript
-import Request from 'simple-request';
+import Request from 'simple-xmlhttp-request';
 
 let request = new Request();
 let result = request.post('/your-url-here', {
